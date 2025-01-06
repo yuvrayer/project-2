@@ -1,0 +1,19 @@
+.visible {
+    visibility: visible;
+}
+
+.show {
+    display: block;
+    /* Only show when the 'show' class is added */
+}
+
+#loadingDiv {
+    z-index: 2000;
+    /* to overcome popover z-index */
+}
+
+h1,
+ul {
+    text-align: center;
+    justify-content: center;
+}
